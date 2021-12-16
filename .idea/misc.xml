@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_FinalApplication/app/src/main/res/drawable/back_drawable.xml" value="0.17592592592592593" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_FinalApplication/app/src/main/res/drawable/bar_shape.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_FinalApplication/app/src/main/res/drawable/glasses_size.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_FinalApplication/app/src/main/res/drawable/id_size.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_FinalApplication/app/src/main/res/drawable/login_loginbtn.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_FinalApplication/app/src/main/res/drawable/main_Btnshape.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_FinalApplication/app/src/main/res/drawable/main_btnshape.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_FinalApplication/app/src/main/res/drawable/menu_btnshape.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_FinalApplication/app/src/main/res/drawable/menu_shape.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_FinalApplication/app/src/main/res/drawable/movie_btnshape.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_FinalApplication/app/src/main/res/drawable/pw_size.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_FinalApplication/app/src/main/res/drawable/reviewbox_shape.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_FinalApplication/app/src/main/res/layout/activity_film.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_FinalApplication/app/src/main/res/layout/activity_login.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_FinalApplication/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_FinalApplication/app/src/main/res/layout/activity_menu.xml" value="0.2" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_FinalApplication/app/src/main/res/layout/activity_reservation.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_FinalApplication/app/src/main/res/layout/activity_review.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_FinalApplication/app/src/main/res/layout/movie_item.xml" value="0.2" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_finals/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_finals/app/src/main/res/drawable/icidpw_size.xml" value="0.11666666666666667" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_finals/app/src/main/res/drawable/id_size.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_finals/app/src/main/res/drawable/login_btnshape.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_finals/app/src/main/res/drawable/login_loginbtn.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_finals/app/src/main/res/drawable/login_signupbtn.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_finals/app/src/main/res/drawable/menu_btnshape.xml" value="0.2324074074074074" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_finals/app/src/main/res/drawable/menu_shape.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_finals/app/src/main/res/drawable/movie_btnshape.xml" value="0.22685185185185186" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_finals/app/src/main/res/drawable/pw_size.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_finals/app/src/main/res/layout/activity.xml" value="0.8642857142857143" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_finals/app/src/main/res/layout/activity_item.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_finals/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_finals/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_finals/app/src/main/res/layout/activity_menu.xml" value="0.264" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_finals/app/src/main/res/layout/activity_movie.xml" value="0.1" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_finals/app/src/main/res/layout/activity_movielist.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_finals/app/src/main/res/layout/drawble_size.xml" value="0.25" />
+        <entry key="..\:/Users/sobin/AndroidStudioProjects/20173003_finals/app/src/main/res/layout/movie_item.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

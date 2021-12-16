@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    >
+
+    <EditText
+        android:id="@+id/reviewpage"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#333333"
+        android:text="영화리뷰 작성하기"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/snack_size"
+        android:drawableEnd="@drawable/snack_size"
+        android:drawablePadding="35dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/main_btnshape"
+        android:padding="10dp"
+        android:elevation="10dp">
+
+        <EditText
+            android:id="@+id/review_title"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"
+            android:hint="제목을 입력하세요."
+            android:layout_marginTop="10dp"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/inputCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_gravity="right"
+                android:padding="3dp"
+                android:text="0 / 500바이트"
+                android:textColor="#0000ff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/inputMessage"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:hint="500자 이내의 영화 리뷰를 작성하세요."
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+            <Button
+                android:id="@+id/attachmentBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+ 사진 첨부"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:text="저장"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/login_loginbtn" />
+
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="취소"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@drawable/login_signupbtn"/>
+
+    </LinearLayout>
+
+</LinearLayout>

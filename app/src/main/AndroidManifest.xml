@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a20173003_finals">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="com.android.permission.SET_ALARM"/>
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="20173003_FinalApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.20173003_finals">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+        </activity>
+        <activity android:name=".ReviewActivity"
+            android:exported="true">
+        </activity>
+        <activity android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

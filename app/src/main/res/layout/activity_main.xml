@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="5dp">
+
+    <EditText
+        android:id="@+id/xeditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="사이트 주소 입력"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <Button
+            android:id="@+id/dateButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="날짜별 조회하기"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:background="@drawable/main_btnshape"/>
+
+        <Button
+            android:id="@+id/xbutton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="요청하기"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:background="@drawable/main_btnshape"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+
+        <Button
+            android:id="@+id/callQnABtn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/main_btnshape"
+            android:onClick="OnClickedCallBtn"
+            android:text="전화 문의하기"
+            android:textColor="#333333"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/reviewBtn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/main_btnshape"
+            android:onClick="OnClickedReviewBtn"
+            android:text="리뷰 작성하기"
+            android:textColor="#333333"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp" />
+
+</LinearLayout>
